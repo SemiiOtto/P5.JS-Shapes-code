@@ -1,0 +1,25 @@
+//Backgound color and size
+
+function setup() {
+  createCanvas(600, 600);
+}
+
+//Draw is where the loop happens or where things are drawn
+
+function draw() {
+  background(0);
+
+  // circle shape and color
+  ellipseMode(CENTER);
+  stroke(20,30,255,)
+  strokeWeight(3);
+  fill(184,102,255)
+  ellipse(300, 300, 199);
+  
+
+  // rectangle shape and color
+  rectMode(CENTER);
+  fill(0, 255, 90);
+  noStroke();
+  rect(300, 300, 300, 150, 9);
+  }
